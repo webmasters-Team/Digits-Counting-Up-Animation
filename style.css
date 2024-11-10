@@ -1,0 +1,45 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  }
+  body {
+    background: #2e363e;
+  }
+  .counter {
+    padding: 1rem 0;
+  }
+  .single-number {
+    padding: 15px;
+    transition: all 0.6s;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+  }
+  .digit-box {
+    display: block;
+    font-size: 80px;
+    font-weight: 700;
+    color: #2fdb50;
+  }
+  .text-box {
+    color: #fff;
+  }
+  .text-center {
+    text-align: center;
+  }
+  .single-number:hover {
+    background: #2fdb50;
+    color: #fff;
+  }
+  .single-number:hover .digit-box {
+    color: #fff;
+  }
+  @media (max-width: 1000px) {
+    .single-number {
+      margin-bottom: 30px;
+    }
+    .digit-box {
+      font-size: 50px;
+    }
+  }
+  
